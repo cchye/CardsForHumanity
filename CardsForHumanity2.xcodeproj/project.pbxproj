@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB323980222B95EE005EC38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB32397F222B95EE005EC38C /* AppDelegate.swift */; };
+		DB323982222B95EE005EC38C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB323981222B95EE005EC38C /* FirstViewController.swift */; };
+		DB323984222B95EE005EC38C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB323983222B95EE005EC38C /* SecondViewController.swift */; };
+		DB323987222B95EE005EC38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB323985222B95EE005EC38C /* Main.storyboard */; };
+		DB323989222B95EF005EC38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB323988222B95EF005EC38C /* Assets.xcassets */; };
+		DB32398C222B95EF005EC38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB32398A222B95EF005EC38C /* LaunchScreen.storyboard */; };
+		DB323997222B95EF005EC38C /* CardsForHumanity2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB323996222B95EF005EC38C /* CardsForHumanity2Tests.swift */; };
+		DB3239A2222B95EF005EC38C /* CardsForHumanity2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3239A1222B95EF005EC38C /* CardsForHumanity2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB323993222B95EF005EC38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB323974222B95EE005EC38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB32397B222B95EE005EC38C;
+			remoteInfo = CardsForHumanity2;
+		};
+		DB32399E222B95EF005EC38C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB323974222B95EE005EC38C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB32397B222B95EE005EC38C;
+			remoteInfo = CardsForHumanity2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB32397C222B95EE005EC38C /* CardsForHumanity2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsForHumanity2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB32397F222B95EE005EC38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB323981222B95EE005EC38C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DB323983222B95EE005EC38C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DB323986222B95EE005EC38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB323988222B95EF005EC38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB32398B222B95EF005EC38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB32398D222B95EF005EC38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB323992222B95EF005EC38C /* CardsForHumanity2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsForHumanity2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB323996222B95EF005EC38C /* CardsForHumanity2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsForHumanity2Tests.swift; sourceTree = "<group>"; };
+		DB323998222B95EF005EC38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB32399D222B95EF005EC38C /* CardsForHumanity2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsForHumanity2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3239A1222B95EF005EC38C /* CardsForHumanity2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsForHumanity2UITests.swift; sourceTree = "<group>"; };
+		DB3239A3222B95EF005EC38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB323979222B95EE005EC38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB32398F222B95EF005EC38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB32399A222B95EF005EC38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB323973222B95EE005EC38C = {
+			isa = PBXGroup;
+			children = (
+				DB32397E222B95EE005EC38C /* CardsForHumanity2 */,
+				DB323995222B95EF005EC38C /* CardsForHumanity2Tests */,
+				DB3239A0222B95EF005EC38C /* CardsForHumanity2UITests */,
+				DB32397D222B95EE005EC38C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB32397D222B95EE005EC38C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB32397C222B95EE005EC38C /* CardsForHumanity2.app */,
+				DB323992222B95EF005EC38C /* CardsForHumanity2Tests.xctest */,
+				DB32399D222B95EF005EC38C /* CardsForHumanity2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB32397E222B95EE005EC38C /* CardsForHumanity2 */ = {
+			isa = PBXGroup;
+			children = (
+				DB32397F222B95EE005EC38C /* AppDelegate.swift */,
+				DB323981222B95EE005EC38C /* FirstViewController.swift */,
+				DB323983222B95EE005EC38C /* SecondViewController.swift */,
+				DB323985222B95EE005EC38C /* Main.storyboard */,
+				DB323988222B95EF005EC38C /* Assets.xcassets */,
+				DB32398A222B95EF005EC38C /* LaunchScreen.storyboard */,
+				DB32398D222B95EF005EC38C /* Info.plist */,
+			);
+			path = CardsForHumanity2;
+			sourceTree = "<group>";
+		};
+		DB323995222B95EF005EC38C /* CardsForHumanity2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DB323996222B95EF005EC38C /* CardsForHumanity2Tests.swift */,
+				DB323998222B95EF005EC38C /* Info.plist */,
+			);
+			path = CardsForHumanity2Tests;
+			sourceTree = "<group>";
+		};
+		DB3239A0222B95EF005EC38C /* CardsForHumanity2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3239A1222B95EF005EC38C /* CardsForHumanity2UITests.swift */,
+				DB3239A3222B95EF005EC38C /* Info.plist */,
+			);
+			path = CardsForHumanity2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB32397B222B95EE005EC38C /* CardsForHumanity2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3239A6222B95EF005EC38C /* Build configuration list for PBXNativeTarget "CardsForHumanity2" */;
+			buildPhases = (
+				DB323978222B95EE005EC38C /* Sources */,
+				DB323979222B95EE005EC38C /* Frameworks */,
+				DB32397A222B95EE005EC38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardsForHumanity2;
+			productName = CardsForHumanity2;
+			productReference = DB32397C222B95EE005EC38C /* CardsForHumanity2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB323991222B95EF005EC38C /* CardsForHumanity2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3239A9222B95EF005EC38C /* Build configuration list for PBXNativeTarget "CardsForHumanity2Tests" */;
+			buildPhases = (
+				DB32398E222B95EF005EC38C /* Sources */,
+				DB32398F222B95EF005EC38C /* Frameworks */,
+				DB323990222B95EF005EC38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB323994222B95EF005EC38C /* PBXTargetDependency */,
+			);
+			name = CardsForHumanity2Tests;
+			productName = CardsForHumanity2Tests;
+			productReference = DB323992222B95EF005EC38C /* CardsForHumanity2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB32399C222B95EF005EC38C /* CardsForHumanity2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3239AC222B95EF005EC38C /* Build configuration list for PBXNativeTarget "CardsForHumanity2UITests" */;
+			buildPhases = (
+				DB323999222B95EF005EC38C /* Sources */,
+				DB32399A222B95EF005EC38C /* Frameworks */,
+				DB32399B222B95EF005EC38C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB32399F222B95EF005EC38C /* PBXTargetDependency */,
+			);
+			name = CardsForHumanity2UITests;
+			productName = CardsForHumanity2UITests;
+			productReference = DB32399D222B95EF005EC38C /* CardsForHumanity2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB323974222B95EE005EC38C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Christine Chye";
+				TargetAttributes = {
+					DB32397B222B95EE005EC38C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DB323991222B95EF005EC38C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DB32397B222B95EE005EC38C;
+					};
+					DB32399C222B95EF005EC38C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DB32397B222B95EE005EC38C;
+					};
+				};
+			};
+			buildConfigurationList = DB323977222B95EE005EC38C /* Build configuration list for PBXProject "CardsForHumanity2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB323973222B95EE005EC38C;
+			productRefGroup = DB32397D222B95EE005EC38C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB32397B222B95EE005EC38C /* CardsForHumanity2 */,
+				DB323991222B95EF005EC38C /* CardsForHumanity2Tests */,
+				DB32399C222B95EF005EC38C /* CardsForHumanity2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB32397A222B95EE005EC38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB32398C222B95EF005EC38C /* LaunchScreen.storyboard in Resources */,
+				DB323989222B95EF005EC38C /* Assets.xcassets in Resources */,
+				DB323987222B95EE005EC38C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB323990222B95EF005EC38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB32399B222B95EF005EC38C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB323978222B95EE005EC38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB323984222B95EE005EC38C /* SecondViewController.swift in Sources */,
+				DB323980222B95EE005EC38C /* AppDelegate.swift in Sources */,
+				DB323982222B95EE005EC38C /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB32398E222B95EF005EC38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB323997222B95EF005EC38C /* CardsForHumanity2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB323999222B95EF005EC38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3239A2222B95EF005EC38C /* CardsForHumanity2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB323994222B95EF005EC38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB32397B222B95EE005EC38C /* CardsForHumanity2 */;
+			targetProxy = DB323993222B95EF005EC38C /* PBXContainerItemProxy */;
+		};
+		DB32399F222B95EF005EC38C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB32397B222B95EE005EC38C /* CardsForHumanity2 */;
+			targetProxy = DB32399E222B95EF005EC38C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB323985222B95EE005EC38C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB323986222B95EE005EC38C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB32398A222B95EF005EC38C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB32398B222B95EF005EC38C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB3239A4222B95EF005EC38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB3239A5222B95EF005EC38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3239A7222B95EF005EC38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardsForHumanity2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Christine.CardsForHumanity2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB3239A8222B95EF005EC38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardsForHumanity2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Christine.CardsForHumanity2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB3239AA222B95EF005EC38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardsForHumanity2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Christine.CardsForHumanity2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardsForHumanity2.app/CardsForHumanity2";
+			};
+			name = Debug;
+		};
+		DB3239AB222B95EF005EC38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardsForHumanity2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Christine.CardsForHumanity2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardsForHumanity2.app/CardsForHumanity2";
+			};
+			name = Release;
+		};
+		DB3239AD222B95EF005EC38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardsForHumanity2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Christine.CardsForHumanity2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardsForHumanity2;
+			};
+			name = Debug;
+		};
+		DB3239AE222B95EF005EC38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardsForHumanity2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Christine.CardsForHumanity2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardsForHumanity2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB323977222B95EE005EC38C /* Build configuration list for PBXProject "CardsForHumanity2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3239A4222B95EF005EC38C /* Debug */,
+				DB3239A5222B95EF005EC38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3239A6222B95EF005EC38C /* Build configuration list for PBXNativeTarget "CardsForHumanity2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3239A7222B95EF005EC38C /* Debug */,
+				DB3239A8222B95EF005EC38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3239A9222B95EF005EC38C /* Build configuration list for PBXNativeTarget "CardsForHumanity2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3239AA222B95EF005EC38C /* Debug */,
+				DB3239AB222B95EF005EC38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3239AC222B95EF005EC38C /* Build configuration list for PBXNativeTarget "CardsForHumanity2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3239AD222B95EF005EC38C /* Debug */,
+				DB3239AE222B95EF005EC38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB323974222B95EE005EC38C /* Project object */;
+}
