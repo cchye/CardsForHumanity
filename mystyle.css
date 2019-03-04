@@ -1,0 +1,174 @@
+/* 
+*  Hack For Humanity 2019 Project
+*  Team STEMinists
+*  mystyle.css
+*/
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+/* navigation bar */
+.navbar, .navstyle{
+        background-color: black;
+}
+
+#nav_main {
+	padding: 10px;
+}
+
+.main{
+	background-color: black;
+	color: white;
+}
+
+.main_header img{
+	width: 400px;
+	height: 250px;
+	position: center;
+	margin-bottom: 10px;
+}	
+
+div.main_header {
+	text-align: center;
+}
+
+p {
+	margin-left: 10px;
+}
+
+.p_main{
+	display: block;
+	margin: 25px;
+}
+
+.h1 {
+	margin-left: 10px;
+}
+
+#h4hlogo {
+	height: 40px;
+	width: 60px;
+}
+
+ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0;
+	align-items: center;
+}
+
+a:link, a:visited{
+        display: block;
+        width: auto;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        padding: 5px;
+	margin: 5px;
+        text-decoration: none !important;
+}
+
+a:hover, a:active{
+        background-color: white;
+	color: black;
+}
+
+/* flexbox for deck of cards */
+.flex_container {
+	display: flex;
+	flex-direction: row;		
+	justify-content: center;	
+}
+
+.flip-container {
+	height: 500px;
+	width: 275px;
+	perspective:800px;
+	margin: 25px;
+}
+
+/* card */
+.card{
+	width:100%;
+	height: 100%;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transform-style:preserve-3d;
+	-webkit-transition: transform 1.5s;
+	transition: transform 1.5s;
+}
+	
+/* front side of card */
+.front{
+	position: absolute;
+	height:100%;
+	width:100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	text-align: center;
+	color: black;
+}
+
+/* back side of card */
+.back{
+	position: absolute;
+	-ms-transform: rotateY(-180deg); /* IE 9 */
+   	-webkit-transform: rotateY(-180deg); /* Safari */
+	transform: rotateY(-180deg);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+.front, .back img{
+	height: 500px;
+        width: 275px;
+}
+
+/* on hover, flip card on the y-axis by 180 degrees */
+.flip-container:hover .card {
+	transform: rotateY(180deg);
+}
+
+.icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 25px;
+	padding: 25px;
+}
+
+div.icons img{
+	width: 200px;
+	height: 150px;
+}
+
+.back_a a{
+	text-align: left;
+	color: black;
+}
+	
+.footer{
+        width:100%;
+        font-size:11px;
+	background-color: black;
+	color: white;
+	height: 60px;
+	padding: 5px;
+	text-align:left;
+}
+
+
+
