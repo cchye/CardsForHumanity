@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB0126B3222C095700692147 /* SexEdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0126B2222C095700692147 /* SexEdViewController.swift */; };
 		DB323980222B95EE005EC38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB32397F222B95EE005EC38C /* AppDelegate.swift */; };
-		DB323982222B95EE005EC38C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB323981222B95EE005EC38C /* FirstViewController.swift */; };
-		DB323984222B95EE005EC38C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB323983222B95EE005EC38C /* SecondViewController.swift */; };
+		DB323982222B95EE005EC38C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB323981222B95EE005EC38C /* HomeViewController.swift */; };
 		DB323987222B95EE005EC38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB323985222B95EE005EC38C /* Main.storyboard */; };
 		DB323989222B95EF005EC38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB323988222B95EF005EC38C /* Assets.xcassets */; };
 		DB32398C222B95EF005EC38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB32398A222B95EF005EC38C /* LaunchScreen.storyboard */; };
 		DB323997222B95EF005EC38C /* CardsForHumanity2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB323996222B95EF005EC38C /* CardsForHumanity2Tests.swift */; };
 		DB3239A2222B95EF005EC38C /* CardsForHumanity2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3239A1222B95EF005EC38C /* CardsForHumanity2UITests.swift */; };
+		DB3239B0222BC3AD005EC38C /* RaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3239AF222BC3AD005EC38C /* RaceViewController.swift */; };
+		DB3239B2222BD54D005EC38C /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3239B1222BD54D005EC38C /* HealthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB0126B2222C095700692147 /* SexEdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexEdViewController.swift; sourceTree = "<group>"; };
 		DB32397C222B95EE005EC38C /* CardsForHumanity2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsForHumanity2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB32397F222B95EE005EC38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB323981222B95EE005EC38C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DB323983222B95EE005EC38C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DB323981222B95EE005EC38C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DB323986222B95EE005EC38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB323988222B95EF005EC38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB32398B222B95EF005EC38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		DB32399D222B95EF005EC38C /* CardsForHumanity2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardsForHumanity2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3239A1222B95EF005EC38C /* CardsForHumanity2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsForHumanity2UITests.swift; sourceTree = "<group>"; };
 		DB3239A3222B95EF005EC38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3239AF222BC3AD005EC38C /* RaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceViewController.swift; sourceTree = "<group>"; };
+		DB3239B1222BD54D005EC38C /* HealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				DB32397F222B95EE005EC38C /* AppDelegate.swift */,
-				DB323981222B95EE005EC38C /* FirstViewController.swift */,
-				DB323983222B95EE005EC38C /* SecondViewController.swift */,
+				DB323981222B95EE005EC38C /* HomeViewController.swift */,
 				DB323985222B95EE005EC38C /* Main.storyboard */,
+				DB3239B1222BD54D005EC38C /* HealthViewController.swift */,
+				DB3239AF222BC3AD005EC38C /* RaceViewController.swift */,
+				DB0126B2222C095700692147 /* SexEdViewController.swift */,
 				DB323988222B95EF005EC38C /* Assets.xcassets */,
 				DB32398A222B95EF005EC38C /* LaunchScreen.storyboard */,
 				DB32398D222B95EF005EC38C /* Info.plist */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB323984222B95EE005EC38C /* SecondViewController.swift in Sources */,
+				DB3239B0222BC3AD005EC38C /* RaceViewController.swift in Sources */,
 				DB323980222B95EE005EC38C /* AppDelegate.swift in Sources */,
-				DB323982222B95EE005EC38C /* FirstViewController.swift in Sources */,
+				DB0126B3222C095700692147 /* SexEdViewController.swift in Sources */,
+				DB323982222B95EE005EC38C /* HomeViewController.swift in Sources */,
+				DB3239B2222BD54D005EC38C /* HealthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HDYZ9DK7P;
 				INFOPLIST_FILE = CardsForHumanity2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HDYZ9DK7P;
 				INFOPLIST_FILE = CardsForHumanity2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
